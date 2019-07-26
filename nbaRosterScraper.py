@@ -28,14 +28,14 @@ if not args.individual:
 		csv_writer.writerow(headers)
 
 
-teams = ['ATL', 'BKN', 'BOS', 'CHA', 'CHI', 'CLE', 'DAL', 'DEN', 'DET', 'GSW', 'HOU', 'IND', 'LAC', 'LAL', 'MEM', 'NOP', 'NYC', 'OKC', 'ORL', 
-'PHI', 'PHX', 'POR', 'SAC', 'SAS', 'TOR', 'UTA', 'WSH']
+teams = ['ATL', 'BOS', 'BRK', 'CHO', 'CHI', 'CLE', 'DAL', 'DEN', 'DET', 'GSW', 'HOU', 'IND', 'LAC', 'LAL', 'MEM', 'MIA', 'MIL', 'MIN', 'NOP', 'NYK', 'OKC', 'ORL', 
+'PHI', 'PHO', 'POR', 'SAC', 'SAS', 'TOR', 'UTA', 'WAS']
 
 for team in teams:
 	link_head = 'https://www.basketball-reference.com/teams/'
 	link_end = '/2020.html'
 	link = link_head + team + link_end
-	print(link)
+	#print(link)
 
 	response = requests.get(link)
 
