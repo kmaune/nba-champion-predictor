@@ -6,7 +6,7 @@ The learner will give each team a score for the season with values closer to 1 m
 
 If you are having trouble viewing the Jupyter Notebook on Github, it can be [viewed here](https://nbviewer.jupyter.org/github/kmaune/nba-champion-predictor/blob/master/nba%20analysis.ipynb) as well
 
-##Project Breakdown
+## Project Breakdown
 
 This project can be broken down into 4 main parts:
 
