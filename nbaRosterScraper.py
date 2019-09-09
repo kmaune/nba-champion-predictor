@@ -13,7 +13,7 @@ from csv import writer
 from itertools import zip_longest
 
 
-parser = argparse.ArgumentParser(description='Run experiments and generate figures')
+parser = argparse.ArgumentParser(description='Scrape nba roster data')
 parser.add_argument('--all', action='store_true', help='load all teams in one file (default)')
 parser.add_argument('--individual', action='store_true', help='load each team into individual file')
 args = parser.parse_args()
